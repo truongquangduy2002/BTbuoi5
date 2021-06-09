@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font: 400 12px arial;
+    text-align: left;
+}
+.header{
+    display: flex;
+    margin-top: 70px;
+    max-width: 1000px;
+    margin: 50px auto 10px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 3px solid #c0c0c0;
+}
+.left{
+    margin-top: -20px;
+}
+.left .left1{
+    margin-top: 18px;
+}
+.content-left{
+    margin-left: 14px;
+}
+.content-left .fa{
+    margin-left: -18px;
+    padding: 0 5px;
+    color: #000000;
+}
+.content-left .fa1 a{
+    color: #9f224e;
+}
+.content-left li{
+    padding: 8px 0;
+     font-size: 14px;
+    line-height: 22px;
+}
+.content-left li a:hover{
+    color: blue;
+}
+.content-left li a{
+    text-decoration: none;
+    color: #000;
+}
+.content-left .cl1 {
+    /* background-color: #e5e5e5; */
+    color: #9f224e;
+    background-color: #ccc;
+}
+.center{
+    line-height: 50px;
+    margin-top: -5px;
+    margin-left: 230px;
+}
+.center h1{
+    font-size: 48px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    padding: 0 135px;
+}
+.content-left{
+    width: 200px;
+    margin-right: 20px;
+}
+.content-left li{
+    list-style: none;
+}
+.content-center{
+    width: 530px;
+    margin-right: 20px;
+}
+
+section{
+    margin-top: 20px;
+}
+/* center1 */
+.center1{
+    background-color: #e5e5e5;
+    padding: 22px 20px;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    line-height: 1.32;
+}
+.center1 .ct1{
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: normal;
+}
+.cttop .p1{
+    margin-bottom: 22px;
+    width: 355px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.cttop a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+.center1 .p1{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.img-ct1{
+    width: 100px;
+    border: 50%;
+}
+.img1{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.bd1{
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.32;
+}
+/* center2 */
+.center2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.32;
+    display: flex;
+    /* justify-content: space-around; */
+}  
+.ctcenter .p1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.center2 .p4{
+    margin-bottom: 10px;
+}
+.center2 .p4 a{
+    text-decoration: none;
+    color: #000;
+}
+.img2{
+    width: 50%;
+    border-radius: 50%;
+}
+.ctimg2{
+    text-align: center;
+    margin-top: 30px;
+}
+/* center3 */
+.center3{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.32;
+}
+.center3 .p5 a{
+    text-decoration: none;
+    color: #000;
+}
+.ctbottom .p1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.ctbottom .p5{
+    margin-bottom: 10px;
+}
+.ctimg3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* content-right */
+.content-right{
+    width: 245px;
+    background-color: #e5e5e5;
+    padding: 0 15px;
+}
+.content-right .r1{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    color: #9f224e;
+}
+.content-right .r2{
+    font-size: 17px;
+    margin: 0 -10px 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.35;
+    font-size: 22px;
+    font-weight: bold;
+}
+.content-right .r3{
+    line-height: 1.32 !important;
+    margin-bottom: 10px;
+}
+.content-right .r4{
+    margin-bottom: 11px;
+}
+.content-right .r4 a{
+    text-decoration: none;
+    color: #000;
+}
+.content-right .r5{
+    margin-top: 10px;
+    margin: 0 -10px 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.32;
+}
+.content-right .r6{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content-right .r7{
+    margin-bottom: 11px;
+}
+.content-right .r7 a{
+    text-decoration: none;
+    color: #000;
+}
+.content-right .r8{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0 -10px 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.32;
+}
+.content-right .r9{
+    font-size: 20px;
+}
+.fa-twitch{
+    margin-left: 15px;
+}
