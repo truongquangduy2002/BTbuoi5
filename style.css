@@ -25,6 +25,7 @@ body{
 }
 .content-left{
     margin-left: 14px;
+    border-right: 1px solid #ccc;
 }
 .content-left .fa{
     margin-left: -18px;
